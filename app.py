@@ -88,17 +88,24 @@ def semantic_match_score(jd_text, resume_text):
 # In[13]:
 
 
-jd_text_path =  r"C:\Users\Payel\Desktop\INTEL GEN AI\Recruitment Screening Agent\sample data\JD.txt"
-resume_path = r'C:\Users\Payel\Desktop\INTEL GEN AI\Recruitment Screening Agent\sample data\resume.pdf'
-
-
-# In[14]:
-
+jd_text_path = "JD.txt"
+resume_path = "resume.pdf"
 
 with open(jd_text_path, "r", encoding="utf-8") as file:
     jd_text = file.read()
 
-resume_text = extract_text_from_pdf(resume_path)
+import PyPDF2
+
+resume_text = ""
+with open(resume_path, "rb") as file:
+    pdf_reader = PyPDF2.PdfReader(file)
+    for page in pdf_reader.pages:
+        resume_text += page.extract_text()
+
+# In[14]:
+
+
+
 
 
 # In[15]:
