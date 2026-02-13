@@ -4,7 +4,7 @@
 # In[5]:
 
 
-get_ipython().system('pip install scikit-learn PyPDF2')
+
 
 
 # In[6]:
