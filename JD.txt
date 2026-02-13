@@ -1,0 +1,25 @@
+Job Title: Data Scientist / Machine Learning Engineer
+
+Job Description:
+We are looking for a Data Scientist who can analyze large datasets and build machine learning models
+to solve real-world problems.
+
+Required Skills:
+- Strong proficiency in Python
+- Knowledge of Machine Learning algorithms
+- Experience with data analysis using pandas and NumPy
+- Understanding of NLP concepts
+- Experience with scikit-learn
+- Ability to preprocess and clean data
+- Basic knowledge of SQL
+
+Responsibilities:
+- Analyze structured and unstructured data
+- Build and evaluate machine learning models
+- Extract insights from data
+- Collaborate with cross-functional teams
+- Assist in building AI-driven solutions
+
+Preferred Qualifications:
+- Experience with NLP projects
+- Hands-on experience with real-world datasets
